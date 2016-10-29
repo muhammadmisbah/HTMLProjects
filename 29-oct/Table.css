@@ -5,23 +5,21 @@ body {
     background-size: 100%;
 
 }
-div {
+header{
+    border:  2px solid red;
+    display: -webkit-inline-flex;
+    width: 100%;
+}
+#abc {
     margin: 10% ;
-    padding: 30px ;
     border: 2px solid cornflowerblue;
 }
 img {
     width: 200px ;
     height: 60px;
 }
-img {
-    display: inline;
-}
 h1, p {
     font-family: Arial, Helvetica, sans-serif ;
-}
-table {
-    width: 100%;
 }
 #footer {
     margin-top: 10px;
@@ -30,4 +28,10 @@ table {
 }
 footer {
     margin-top: 10px ;
+    margin-left: 0;
+    height: 50px;
+    border: 2px solid red;
+}
+table {
+    width: 100%;
 }
