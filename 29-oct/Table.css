@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    background-image: url("bg.jpg") ;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+
+}
+div {
+    margin: 10% ;
+    padding: 30px ;
+    border: 2px solid cornflowerblue;
+}
+img {
+    width: 200px ;
+    height: 60px;
+}
+img {
+    display: inline;
+}
+h1, p {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+table {
+    width: 100%;
+}
+#footer {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Courier New, Courier, monospace;
+}
+footer {
+    margin-top: 10px ;
+}
