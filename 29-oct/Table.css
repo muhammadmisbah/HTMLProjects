@@ -12,9 +12,8 @@ body {
     width: 900px;
 }
 
-header{
-     
-    height: 110px;
+header{     
+    height: 96px;
     background-image: url("hbg.jpg");
     background-size: 100%;
     padding-left: 30px;
@@ -24,8 +23,11 @@ header{
     width: 53%;
     float: left;
 }
-.p {
-  line-height: 1em;
+.hp {
+  line-height: 0.8em;
+}
+#p {
+    font-weight: bold ;
 }
 
 #footer {
@@ -50,7 +52,7 @@ table {
     border-bottom: 3px solid black;
     text-align: center;
     font-family: Candara;
-    font-weight: ;
+
 }
 td {
     width: 18%;
@@ -63,5 +65,12 @@ th {
     font-size: 20px;
     font-family: Comic Sans MS;
     padding-left: 15px ;
+    letter-spacing: 1px;
+    color: maroon;
 }
-
+tr:hover {
+    background-image: url("bg.jpg") ;
+    background-size: 98% ;
+    background-repeat: no-repeat;
+    color: red;
+}
